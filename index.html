@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ecommerce</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/ui.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<section id="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="nav navbar-pills">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-phone"></i> (+62) 82134347957</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fa fa-envelope"></i> diannurarifah30@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <a class="navbar-brand" href="index.html"><h1>TIENSshop</h1></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			  	<form class="form-inline my-2 my-lg-0 ml-lg-5">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+			      <button class="btn btn-warning my-2 my-sm-0" type="submit" style="color: white;">Search</button>
+			    </form>
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-lg-5 pl-lg-5">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.html#service">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.html#footer">Contact</a>
+			      </li>
+			      	<li class="dropdown">
+						<a href="" class="nav-link pl-lg-5" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> View Cart</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+							<div class="card m-2">
+								<table class="table table-hover shopping-cart-wrap">
+									<tbody>
+										<tr>
+											<td>
+												<figure class="media">
+													<div class="img-wrap"><img src="assets/images/products/p1.jpg" class="img-thumbnail img-sm"></div>
+													<figcaption class="media-body">
+														<h6 class="title text-truncate">Penggemuk </h6>
+														<dl class="dlist-inline small">
+														  <dt>Color: </dt>
+														  <dd>Orange color</dd>
+														</dl>
+													</figcaption>
+												</figure> 
+											</td>
+											<td> 
+												<div class="price-wrap">
+													<var class="price">Rp. 300.000</var>
+												</div> <!-- price-wrap .// -->
+											</td>
+											<td class="text-right align-middle"> 
+												<a href="" class="btn btn-outline-danger btn-sm"> × Remove</a>
+											</td>
+										</tr>
+									</tbody>
+									<tfoot class="text-muted">
+										<tr>
+										  <th scope="col">Total</th>
+										  <th scope="col" width="200" class="text-right">Rp. 300.000</th>
+										  <th>
+										  	<a href="checkout.html" class="btn btn-success btn-sm">Checkout</a>
+										  </th>
+										</tr>
+									</tfoot>
+								</table>
+							</div> <!-- card.// -->
+						</div>
+					</li>
+			      	<a href="signin.html" class="nav-link"><i class="fa fa-user"></i> Login</a>
+			      	<a href="signup.html" class="nav-link btn btn-warning text-white">Register</a>
+			    </ul>
+			  </div>
+			</nav>
+			<hr>				
+		</div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: #307DD5;">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="assets/images/s1.png" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/images/s2.png" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/images/s3.png" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+	<section id="service">
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card border-primary mb-3" style="width: auto;">
+					  <div class="card-body text-primary text-center">
+					    <img src="assets/images/fast.png" alt=""><br>
+					    <b>Free Shipping</b><br>			    
+					    <i class="card-text">Free Shipping All Order.</i>
+					  </div>
+					</div>					
+				</div>
+				<div class="col-md-3">
+					<div class="card border-success mb-3" style="width: auto;">
+					  <div class="card-body text-success text-center">
+					    <img src="assets/images/guarantee.png" alt=""><br>
+					    <b>Free Shipping</b><br>			    
+					    <i class="card-text">Free Shipping All Order.</i>
+					  </div>
+					</div>					
+				</div>
+				<div class="col-md-3">
+					<div class="card border-warning mb-3" style="width: auto;">
+					  <div class="card-body text-warning text-center">
+					    <img src="assets/images/help.png" alt=""><br>
+					    <b>Free Shipping</b><br>			    
+					    <i class="card-text">Free Shipping All Order.</i>
+					  </div>
+					</div>					
+				</div>
+				<div class="col-md-3">
+					<div class="card border-danger mb-3" style="width: auto;">
+					  <div class="card-body text-danger text-center">
+					    <img src="assets/images/payment.png" alt=""><br>
+					    <b>Free Shipping</b><br>			    
+					    <i class="card-text">Free Shipping All Order.</i>
+					  </div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="main">
+			<div class="container">
+				<h2 class="card-title">Our Products</h2><hr>
+				<div class="row">
+						<div class="col-md-3 justify-content-md-center">
+							<div class="card">
+								<article class="card-group-item">
+									<header class="card-header">
+										<h6 class="title">Merk </h6>
+									</header>
+									<div class="card-body">
+										<form>
+											<label class="form-check">
+											  <input class="form-check-input" type="checkbox" value="">
+											  <span class="form-check-label">
+											    Tianshi
+											  </span>
+											</label> <!-- form-check.// -->
+											<label class="form-check">
+											  <input class="form-check-input" type="checkbox" value="">
+											  <span class="form-check-label">
+											    Vitaline
+											  </span>
+											</label>  <!-- form-check.// -->
+											<label class="form-check">
+											  <input class="form-check-input" type="checkbox" value="">
+											  <span class="form-check-label">
+											    Lainnya
+											  </span>
+											</label>  <!-- form-check.// -->
+										</form>
+									</div> <!-- card-body.// -->
+								</article> <!-- card-group-item.// -->
+							</div> <!-- card.// -->
+							<div class="card">
+								<article class="card-group-item">
+									<header class="card-header">
+										<h6 class="title">Harga </h6>
+									</header>
+										<div class="card-body">
+										<input class="custom-range" min="0" max="100" name="" type="range">
+										<div class="form-row">
+										<div class="form-group col-md-6">
+										  <label>Min</label>
+										  <input type="number" class="form-control" id="inputEmail4" placeholder="Rp. 0">
+										</div>
+										<div class="form-group col-md-6 text-right">
+										  <label>Max</label>
+										  <input type="number" class="form-control" placeholder="Rp. 1,0000">
+										</div>
+										</div>
+										</div> <!-- card-body.// -->
+								</article> <!-- card-group-item.// -->
+								<article class="card-group-item">
+									<header class="card-header">
+										<h6 class="title">Pilihan </h6>
+									</header>
+										<div class="card-body">
+											<div class="custom-control custom-checkbox">
+												<span class="float-right badge badge-light round">52</span>
+											  	<input type="checkbox" class="custom-control-input" id="Check1">
+											  	<label class="custom-control-label" for="Check1">Tiens</label>
+											</div> <!-- form-check.// -->
+
+											<div class="custom-control custom-checkbox">
+												<span class="float-right badge badge-light round">132</span>
+											  	<input type="checkbox" class="custom-control-input" id="Check2">
+											 	<label class="custom-control-label" for="Check2">Pemutih Wajah</label>
+											</div> <!-- form-check.// -->
+
+											<div class="custom-control custom-checkbox">
+												<span class="float-right badge badge-light round">17</span>
+											  	<input type="checkbox" class="custom-control-input" id="Check3">
+											  	<label class="custom-control-label" for="Check3">Penggemuk Badan</label>
+											</div> <!-- form-check.// -->
+
+											<div class="custom-control custom-checkbox">
+												<span class="float-right badge badge-light round">7</span>
+											  	<input type="checkbox" class="custom-control-input" id="Check4">
+											  	<label class="custom-control-label" for="Check4">Lainnya</label>
+											</div> <!-- form-check.// -->
+										</div> <!-- card-body.// -->
+								</article> <!-- card-group-item.// -->
+							</div> <!-- card.// -->
+						</div>
+					<div class="col-md-9">
+						<div class="row">
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap">
+									<a href="assets/images/products/p2.jpg" data-fancybox="">
+									<img src="assets/images/products/p2.jpg">
+									<!-- <a class="btn-overlay" href="assets/images/products/p1.jpg"><i class="fa fa-search-plus"></i>  -->Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="penggemuk.html" class="title">Penggemuk</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 250.000</span>
+											<del class="price-old">Rp. 300.000</del>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p1.jpg">
+								<a class="btn-overlay" href="assets/images/products/p1.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="tianshi.html" class="title">Tianshi Nutriens</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 230.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p3.jpg">
+								<a class="btn-overlay" href="assets/images/products/p3.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="tianshi.html" class="title">Pemutih Vitaline</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 290.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p4.jpg">
+									<a class="btn-overlay" href="assets/images/products/p4.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="tianshi.html" class="title">Paket Diet Khusus Ibu Menyusui</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 310.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> 
+									<img src="assets/images/products/p5.jpg">
+									<a class="btn-overlay" href="assets/images/products/p5.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="penggemuk.html" class="title">Paket Pelangsing</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 350.000</span>
+											<del class="price-old">Rp. 400.000</del>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p6.jpg">
+								<a class="btn-overlay" href="assets/images/products/p6.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="penggemuk.html" class="title">Paket Mata Minus</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 325.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p8.jpg">
+								<a class="btn-overlay" href="assets/images/products/p8.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="tianshi.html" class="title">Perawatan Wajah</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 280.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						<div class="col-md-4">
+							<figure class="card card-product">
+								<div class="img-wrap"> <img src="assets/images/products/p7.jpg">
+									<a class="btn-overlay" href="assets/images/products/p7.jpg"><i class="fa fa-search-plus"></i> Quick view</a>
+								</div>
+								<figcaption class="info-wrap">
+									<a href="tianshi.html" class="title">Airiz</a>
+									<div class="action-wrap">
+										<a href="#" class="btn btn-primary btn-sm float-right"> Order </a>
+										<div class="price-wrap h5">
+											<span class="price-new">Rp. 100.000</span>
+										</div> <!-- price-wrap.// -->
+									</div> <!-- action-wrap -->
+								</figcaption>
+							</figure> <!-- card // -->
+						</div> <!-- col // -->
+						</div> <!-- row.// -->
+					</div>
+				</div>
+				<h2 class="card-title">Featured Products</h2>
+				<hr>
+				<div class="row">
+					<div class="col-md-3">
+						<figure class="card card-sm card-product">
+							<span class="badge-new"> NEW </span>
+							<div class="img-wrap"> <img src="assets/images/products/p3.jpg"> </div>
+							<figcaption class="info-wrap text-center">
+								<h6 class="title text-truncate"><a href="#">Pemutih Vitaline</a></h6>
+							</figcaption>
+						</figure> <!-- card // -->
+					</div> <!-- col // -->
+					<div class="col-md-3">
+						<figure class="card card-sm card-product">
+							<span class="badge-offer"><b> - 50%</b></span>
+							<div class="img-wrap"> <img src="assets/images/products/p4.jpg"> </div>
+							<figcaption class="info-wrap text-center">
+								<h6 class="title text-truncate"><a href="#">Paket Diet</a></h6>
+							</figcaption>
+						</figure> <!-- card // -->
+					</div> <!-- col // -->
+					<div class="col-md-3">
+						<figure class="card card-sm card-product">
+							<div class="img-wrap"> <img src="assets/images/products/p5.jpg">	</div>
+							<figcaption class="info-wrap text-center">
+								<h6 class="title text-truncate"><a href="#">Paket Pelangsing</a></h6>
+							</figcaption>
+						</figure> <!-- card // -->
+					</div> <!-- col // -->
+					<div class="col-md-3">
+						<figure class="card card-sm card-product">
+							<div class="img-wrap"> <img src="assets/images/products/p1.jpg">	</div>
+							<figcaption class="info-wrap text-center">
+								<h6 class="title text-truncate"><a href="#">Tianshi Nutriens</a></h6>
+							</figcaption>
+						</figure> <!-- card // -->
+					</div> <!-- col // -->
+				</div> <!-- row.// -->
+			</div>
+	</section>
+	<div id="footer" class="footer">
+		<div class="foot-top mt-5 pt-3 pb-5">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-3 col-sm-6">
+						<p class="pt-3">Contact Us</p>
+						<nav class="nav flex-column mb-2">
+							<a class="nav-link py-0" href="#"><i class="fa fa-phone"></i> (+62) 82134347957</a>
+							<a class="nav-link py-0" href="#"><i class="fa fa-envelope"></i> diannurarifah30@gmail.com</a>				
+						</nav>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<p class="pt-3">About Us</p>
+						<nav class="nav flex-column mb-2">
+							<a class="nav-link py-0" href="#">Location</a>
+							<a class="nav-link py-0" href="#">Delivery And Payment</a>
+							<a class="nav-link py-0" href="#">How To Buy</a>
+							<a class="nav-link py-0" href="#">Advertice</a>				
+						</nav>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<p class="pt-3">My Account</p>
+						<nav class="nav flex-column mb-2">
+							<a class="nav-link py-0" href="#">Setting</a>
+							<a class="nav-link py-0" href="#">My Orders</a>
+							<a class="nav-link py-0" href="#">Profiles</a>
+						</nav>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<p class="pt-3">Customer Services</p>
+						<nav class="nav flex-column mb-2">
+							<a class="nav-link py-0" href="#">Help Center</a>
+							<a class="nav-link py-0" href="#">Money Refund</a>
+							<a class="nav-link py-0" href="#">Terms And Policy</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot-bottom mb-0 py-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<p>Copyright &copy; 2019 Tiens Indonesia</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="d-inline-block float-right">
+							<img src="assets/images/visa.png" alt="">
+							<img src="assets/images/paypal.png" alt="">
+							<img src="assets/images/maestro.png" alt="">
+							<img src="assets/images/cash_on_delivery.png" alt="">
+							<img src="assets/images/master_card.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
