@@ -45,7 +45,7 @@
 			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="index.html">About</a>
+			        <a class="nav-link" href="index.html#service">About</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="index.html#footer">Contact</a>
@@ -101,118 +101,131 @@
 		</div>
 	</section>
 	<section id="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="card">
-						<table class="table table-hover shopping-cart-wrap">
-							<thead class="text-muted">
-								<tr>
-								  <th scope="col">Product</th>
-								  <th scope="col" width="120">Quantity</th>
-								  <th scope="col" width="120">Price</th>
-								  <th scope="col" width="200" class="text-right">Action</th>
-								</tr>
-							</thead>
-							<tbody>
-									<tr>
-										<td>
-											<figure class="media">
-												<div class="img-wrap"><img src="assets/images/products/p1.jpg" class="img-thumbnail img-sm"></div>
-												<figcaption class="media-body">
-													<h6 class="title text-truncate">Penggemuk </h6>
-												</figcaption>
-											</figure> 
-										</td>
-										<td> 
-											<select class="form-control">
-												<option>1</option>
-												<option>2</option>	
-												<option>3</option>	
-												<option>4</option>	
-											</select> 
-										</td>
-										<td> 
-											<div class="price-wrap"> 
-												<var class="price">Rp. 300.000</var> 
-											</div> <!-- price-wrap .// -->
-										</td>
-											<td class="text-right"> 
-											<a title="" href="" class="btn btn-outline-success" data-toggle="tooltip" data-original-title="Save to Wishlist"> <i class="fa fa-heart"></i></a> 
-											<a href="" class="btn btn-outline-danger"> × Remove</a>
-										</td>
-									</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<th scope="col" colspan="2">Jumlah</th>
-									<th scope="col">Rp. 300.000</th>
-								</tr>
-							</tfoot>
-						</table>
-					</div> <!-- card.// -->
-				</div>
-				<div class="col-md-4">
-					<article class="card">
-						<div class="card-body p-5">
-							<p>
-								<img src="assets/images/maestro.png">
-								<img src="assets/images/master_card.png">
-								<img src="assets/images/visa.png">
-							</p>
-							<form role="form">
-								<div class="form-group">
-									<label for="username">Full name (on the card)</label>
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text"><i class="fa fa-user"></i></span>
-										</div>
-										<input type="text" class="form-control" name="username" placeholder="" required="">
-									</div> <!-- input-group.// -->
-								</div> <!-- form-group.// -->
-								<div class="form-group">
-										<label for="cardNumber">Card number</label>
-										<div class="input-group">
-											<div class="input-group-prepend">
-												<span class="input-group-text"><i class="fa fa-credit-card"></i></span>
-											</div>
-											<input type="text" class="form-control" name="cardNumber" placeholder="">
-										</div> <!-- input-group.// -->
-								</div> <!-- form-group.// -->
-								<div class="row">
-								    <div class="col-sm-8">
-								        <div class="form-group">
-								            <label><span class="hidden-xs">Expiration</span> </label>
-								        	<div class="form-inline">
-								        		<select class="form-control" style="width:45%">
-												  <option>MM</option>
-												  <option>01 - Janiary</option>
-												  <option>02 - February</option>
-												  <option>03 - February</option>
-												</select>
-									            <span style="width:10%; text-align: center"> / </span>
-									            <select class="form-control" style="width:45%">
-												  <option>YY</option>
-												  <option>2018</option>
-												  <option>2019</option>
-												</select>
-								        	</div>
-								        </div>
-								    </div>
-								    <div class="col-sm-4">
-								        <div class="form-group">
-								            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
-								            <input class="form-control" required="" type="text">
-								        </div> <!-- form-group.// -->
-								    </div>
-								</div> <!-- row.// -->
-								<button class="subscribe btn btn-warning btn-block text-white" type="button"> Confirm  </button>
-							</form>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-10 col-md-9 col-sm-12">
+						<main class="card mt-3">
+							<div class="row no-gutters">
+								<aside class="col-sm-6 border-right">
+									<article class="gallery-wrap"> 
+										<div class="img-big-wrap">
+										  <div> <a href="assets/images/products/p6.jpg" data-fancybox=""><img src="assets/images/products/p6.jpg"></a></div>
+										</div> <!-- slider-product.// -->
+										<div class="img-small-wrap">
+										  <div class="item-gallery"> <img src="assets/images/products/p6.jpg"></div>
+										  <div class="item-gallery"> <img src="assets/images/products/p6.jpg"></div>
+										  <div class="item-gallery"> <img src="assets/images/products/p6.jpg"></div>
+										  <div class="item-gallery"> <img src="assets/images/products/p6.jpg"></div>
+										</div> <!-- slider-nav.// -->
+									</article> <!-- gallery-wrap .end// -->
+								</aside>
+								<aside class="col-sm-6">
+									<article class="card-body">
+										<!-- short-info-wrap -->
+										<h3 class="title mb-3">Penggemuk Badan</h3>
+										<div class="mb-3"> 
+											<var class="price h3 text-warning"> 
+												<span class="currency">ID Rp. </span><span class="num">300.000</span>
+											</var>
+										</div> <!-- price-detail-wrap .// -->
+										<dl>
+										  <dt>Description</dt>
+										  <dd><p>Menggemukkan badan dengan cepat dan aman</p></dd>
+										</dl>
+										
+										<div class="rating-wrap">
+											<ul class="rating-stars">
+												<li style="width:80%" class="stars-active"> 
+													<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+													<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+													<i class="fa fa-star"></i> 
+												</li>
+												<li>
+													<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+													<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+													<i class="fa fa-star"></i> 
+												</li>
+											</ul>
+											<div class="label-rating">132 reviews</div>
+											<div class="label-rating">154 orders </div>
+										</div> <!-- rating-wrap.// -->
+										<hr>
+										<div class="row">
+											<div class="col-sm-5">
+												<dl class="dlist-inline">
+												  <dt>Quantity: </dt>
+												  <dd> 
+												  	<select class="form-control form-control-sm" style="width:70px;">
+												  		<option> 1 </option>
+												  		<option> 2 </option>
+												  		<option> 3 </option>
+												  	</select>
+												  </dd>
+												</dl>  <!-- item-property .// -->
+											</div> <!-- col.// -->
+										</div> <!-- row.// -->
+										<hr>
+										<a href="#" class="btn  btn-warning"> <i class="fa fa-envelope"></i> Contact Supplier </a>
+										<a href="#" class="btn  btn-outline-warning"> Start Order </a>
+										<!-- short-info-wrap .// -->
+									</article> <!-- card-body.// -->
+								</aside> <!-- col.// -->
+							</div> <!-- row.// -->
+						</main> <!-- card.// -->
+
+						<!-- PRODUCT DETAIL -->
+						<article class="card mt-3">
+							<div class="card-body">
+								<h4>Detail overview</h4>
+							<p>	Menggemukkan badan dengan aman dan sehat</p>
+							</div> <!-- card-body.// -->
+						</article> <!-- card.// -->
+						<!-- PRODUCT DETAIL .// -->
+					</div>
+					<aside class="col-xl-2 col-md-3 col-sm-12">
+						<div class="card mt-3">
+							<div class="card-header">
+							    You may like
+							</div>
+						<div class="card-body row">
+							<div class="col-md-12 col-sm-3">
+								<figure class="item border-bottom mb-3">
+										<a href="#" class="img-wrap"> <img src="assets/images/products/p16.jpg" class="img-md"></a>
+										<figcaption class="info-wrap">
+											<a href="#" class="title">Tianshi Munchord</a>
+											<div class="price-wrap mb-3">
+												<span class="price-new">Rp. 300.000</span> <del class="price-old">Rp. 300.000</del>
+											</div> <!-- price-wrap.// -->
+										</figcaption>
+								</figure> <!-- card-product // -->
+							</div> <!-- col.// -->
+							<div class="col-md-12 col-sm-3">
+							<figure class="item border-bottom mb-3">
+									<a class="img-wrap"> <img src="assets/images/products/p17.jpg" class="img-md"></a>
+									<figcaption class="info-wrap">
+										<a href="#" class="title">Tianshi Renuves</a>
+										<div class="price-wrap mb-3">
+											<span class="price-new">Rp. 280.000</span>
+										</div> <!-- price-wrap.// -->
+									</figcaption>
+							</figure> <!-- card-product // -->
+							</div> <!-- col.// -->
+							<div class="col-md-12 col-sm-3">
+							<figure class="item border-bottom mb-3">
+									<a href="#" class="img-wrap"> <img src="assets/images/products/p4.jpg" class="img-md"></a>
+									<figcaption class="info-wrap">
+										<a href="#" class="title">Tianshi Grape Ekstract</a>
+										<div class="price-wrap mb-3">
+											<span class="price-new">Rp. 400.000</span>
+										</div> <!-- price-wrap.// -->
+									</figcaption>
+							</figure> <!-- card-product // -->
+							</div> <!-- col.// -->
 						</div> <!-- card-body.// -->
-					</article> <!-- card.// -->
+							</div> <!-- card.// -->
+					</aside>
 				</div>
 			</div>
-		</div>
 	</section>
 	<div id="footer" class="footer">
 		<div class="foot-top mt-5 pt-3 pb-5">
@@ -272,8 +285,9 @@
 			</div>
 		</div>
 	</div>
-	<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
